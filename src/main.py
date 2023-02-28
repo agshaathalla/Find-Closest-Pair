@@ -5,6 +5,7 @@ import time
 import showGraph as sg
 import splashScreen as ss
 import os
+import platform
 
 def main():
     os.system('cls')
@@ -14,6 +15,8 @@ def main():
     matriks = f.sortByX(matriks, n)
     detik1 = time.time()
     jarak, titik, count = dnc.FindClosestPair(matriks, n, d, euclideanCount)
+    print("\n")
+    print(f"Processor : {platform.processor()}")
     print('''
 _________________________________________________________________________
 
