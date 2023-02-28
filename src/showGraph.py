@@ -37,4 +37,3 @@ def visualisasi(titikAsal, titikAkhir, n, d):
         plt.scatter(x1, y1, s = 20, color='red')
 
         plt.show()
-
