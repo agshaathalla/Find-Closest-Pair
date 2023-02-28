@@ -61,6 +61,11 @@ Dalam menjalankan program ini, dibutuhkan beberapa tools untuk menunjang kebutuh
 2. Buka terminal pada folder `Tucil1_13521027`, kemudian ketik `python src/main.py` atau anda dapat membuka `folder bin`, kemudian masuk ke dalam `folder main` dan klik dua kali pada fila `Find Closest Pair.exe`.
 3. Anda sudah dapat menjalankan program.
 
+   catatan : anda sudah harus menginstall beberapa tools berikut untuk menjalankan program
+
+   1. numpy 	`pip install numpy`
+   2. matplotlib	`pip install matplotlib`
+
 ## Authors
 
 * [Agsha Athalla Nurkareem - 13521027](https://github.com/agshaathalla)
